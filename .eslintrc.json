@@ -11,35 +11,30 @@
     "sourceType": "module"
   },
   "rules": {
-    "array-bracket-newline": ["error", { "multiline": true, "minItems": 2}],
-    "array-element-newline": [
-      "error", {
-        "ArrayExpression": {"multiline":  true, "minItems":  2},
-        "ArrayPattern": {"multiline":  true, "minItems":  2}
-      }
-    ],
+    "array-bracket-newline": ["error", {
+      "multiline": true
+    }],
+    "array-element-newline": ["error", {
+      "ArrayExpression": "always",
+      "ArrayPattern": "consistent"
+    }],
     "comma-dangle": "off",
     "function-call-argument-newline": ["error", "consistent"],
-    "function-paren-newline": ["error", "multiline"],
+    "function-paren-newline": ["error", "consistent"],
+    "import/extensions": "off",
     "import/no-mutable-exports": "off",
     "import/no-unresolved": "off",
     "import/prefer-default-export": "off",
+    "lines-between-class-members": "off",
+    "no-await-in-loop": "off",
     "no-console": "off",
     "no-nested-ternary": "off",
     "no-underscore-dangle": "off",
-    "object-curly-newline": [
-      "error", {
-        "ImportDeclaration": {"multiline": true},
-        "ObjectExpression": {"multiline": true},
-        "ObjectPattern": {"multiline": true},
-        "ExportDeclaration": {"multiline":  true}
-      }
-    ],
-    "object-property-newline": [
-      "error", {
-        "allowAllPropertiesOnSameLine": false
-      }
-    ],
+    "no-param-reassign": "off",
+    "no-restricted-syntax": "off",
+    "object-curly-newline": ["error", {
+      "multiline": true
+    }],
     "quotes": ["error", "double"]
   }
 }
