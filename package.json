@@ -12,7 +12,7 @@
     "start": "cross-env NODE_ENV=production node --experimental-specifier-resolution=node --no-warnings src/index.js"
   },
   "devDependencies": {
-    "@types/mocha": "^10.0.0",
+    "@types/mocha": "^10.0.1",
     "@types/node": "^18.11.18",
     "@types/sinon": "^10.0.13",
     "cross-env": "^7.0.3",
