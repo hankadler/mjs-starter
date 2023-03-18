@@ -1,5 +1,5 @@
 {
-  "name": "core-mjs",
+  "name": "mjs-core",
   "version": "0.1.0",
   "main": "src/index.js",
   "type": "module",
